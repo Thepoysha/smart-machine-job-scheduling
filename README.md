@@ -1,49 +1,46 @@
-# Scheduling and OS-DBMS Integration Module
+# Machine Allocation and System Workflow
 
 This module is developed as part of the Smart Machine and Job
 Scheduling System.
 
 ## Developed By
 
-Garvit Pandey
+Krishna Pandey
 
 ## Responsibilities
 
-- FCFS Scheduling
-- SJF Scheduling
-- Priority Scheduling
-- Job ordering
-- POSIX mutex synchronization
-- MySQL transaction handling
-- Scheduling time calculation
+- Machine availability handling
+- Machine allocation
+- Job-to-machine assignment
+- Start and finish time calculation
+- Waiting time calculation
+- Overall system workflow
 
-## Technologies
+## Machine Allocation
 
-- C
-- POSIX Threads
-- MySQL
+The system checks the availability of all machines and assigns
+the job to the machine that becomes available earliest.
 
-## Scheduling Algorithms
+After assigning a job, the machine's availability time is updated
+according to the job's finish time.
 
-### FCFS
-Jobs are processed according to their order.
+## System Workflow
 
-### SJF
-The job with the shortest processing time is selected first.
+1. Load jobs
+2. Check available machines
+3. Select the earliest available machine
+4. Assign the job
+5. Calculate start time
+6. Calculate finish time
+7. Calculate waiting time
+8. Update machine availability
+9. Display final results
 
-### Priority Scheduling
-Jobs with a higher priority are selected first.
+## Technologies Used
 
-## OS Concepts
+- C Programming
+- GCC
 
-- Scheduling
-- Critical Section
-- Mutex
-- Synchronization
+## Project
 
-## DBMS Concepts
-
-- Transactions
-- COMMIT
-- ROLLBACK
-- Database consistency
+Smart Machine and Job Scheduling System
