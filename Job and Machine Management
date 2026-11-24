@@ -1,0 +1,6 @@
+- Implemented functionality to add new jobs with their names, processing times, and priority levels.
+- Added options to register new machines in the system.
+- Stored job and machine information in the MySQL database.
+- Implemented functions to retrieve pending jobs from the database.
+- Added functionality to load machine details and check their availability.
+- Organized job and machine records for further scheduling operations.
