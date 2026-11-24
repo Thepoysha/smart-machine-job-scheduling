@@ -1,0 +1,4 @@
+Developed the Smart Machine and Job Scheduling System using C programming language with MySQL database integration.
+This module is responsible for connecting the application with the database and managing all the important information related to jobs and machines.
+It provides functionality to store new job details, maintain machine records, retrieve pending jobs, and manage scheduling data.
+The main purpose of this implementation is to make job and machine management easier and provide a proper database structure for the scheduling process.
