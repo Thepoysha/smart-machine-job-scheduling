@@ -1,0 +1,7 @@
+- Implemented automatic allocation of jobs to the machine that becomes available earliest.
+- Calculated the start time, finish time, and waiting time for each scheduled job.
+- Updated job status and machine availability in the MySQL database.
+- Integrated database transaction operations using START TRANSACTION, COMMIT, and ROLLBACK.
+- Added functionality to view job details and machine information.
+- Implemented schedule reset functionality to make all jobs pending again.
+- Improved data consistency and management throughout the scheduling process.
